@@ -1,0 +1,18 @@
+<~ fillings = ["Carnitas", "El Pastor", "Pescado"] ~>
+
+<h1>I love tacos!<h1>
+
+<ul>
+<~ for filling in fillings ~>
+<li><~= filling ~>/li>
+<~ end ~>
+
+<!--
+<ul>
+<li>Carnitas</li>
+<li>El Pastor</li>
+<li>Pescado</li>
+</ul>
+-->
+
+<p> There are <~= fillings.count ~> tacos! </p>
